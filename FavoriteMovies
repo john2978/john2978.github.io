@@ -2,10 +2,15 @@
 <html lang="en">
 <head>
   <meta chartset="UTF-8">
-  <title> TEMPLATE </title>
+  <title> favorite movies </title>
+<style> 
+table, th, td { 
+   border: 2px solid gray; 
+} 
+</style>
 </head>
 <body>
-<h1>Page title </h1>
+<h1>My Favorite movies</h1>
 
 
 
@@ -20,13 +25,16 @@
   <li> Description</li>
   <li> Poster</li>
 </ul>
+
 <table>
+<thead>
 <tr>
 <th> Rating  </th>
 <th> Year </th>
 <th> Description </th>
 <th> Poster </th>
  </tr>
+</thead>
 
 <tr> 
 <th> The Hobbit </th>
@@ -55,8 +63,8 @@
 
 </table>
 
-
-
+<H2> Youtube Embedded Video </H2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jKL2vCGdkuE?si=YafuLTRWk5msEm3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
