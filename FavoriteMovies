@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta chartset="UTF-8">
+  <title> TEMPLATE </title>
+</head>
+<body>
+<h1>Page title </h1>
+
+
+
+<ul>
+  <li> The Hobbit 1977 </li>
+  <li> Forest Gump </li>
+  <li> Bambi </li>
+</ul>
+<ul>
+  <li> Rating</li>
+  <li> Year </li>
+  <li> Description</li>
+  <li> Poster</li>
+</ul>
+<table>
+<tr>
+<th> Rating  </th>
+<th> Year </th>
+<th> Description </th>
+<th> Poster </th>
+ </tr>
+
+<tr> 
+<th> The Hobbit </th>
+<td> 10/10 </td>
+<td> 1977 </td>
+<td> Stylin' </td>
+<td> <img src="https://kids.kiddle.co/images/9/9e/Hobbit_1977_Original_Film_Poster.jpg" alt="Hobbit 1977 movie poster" height ="100px" </td>
+</tr>
+<tr> 
+
+<th> Forest Gump</th>
+<td> 10/10 </td>
+<td> 1994 </td>
+<td> Happy and Sad </td>
+<td> <img src="https://th.bing.com/th/id/OIP.tln02n_MPpnstn9veN-_dgHaMp?rs=1&pid=ImgDetMain" alt="" height ="100px"  </td>
+</tr>
+
+<tr> 
+<th> Bambi </th>
+<td> 10/10 </td>
+<td> 1942 </td>
+<td> Sincere </td>
+<td> <img src="https://i.redd.it/re1pzwfn1ckz.jpg" alt="Bambi Movie Poster" height ="100px"  </td>
+</tr>
+
+
+</table>
+
+
+
+
+
+
+
+</body>
+
+
+</html>
