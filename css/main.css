@@ -19,3 +19,11 @@ font-weight: 500%;
  rgb(20,120,140)
 
  rgb(180,200,220);
+
+h {
+    font-family: "Georgia", "Times New Roman", serif; 
+}
+
+p {
+    font-family: "Verdana", "Arial", sans-serif;
+}
