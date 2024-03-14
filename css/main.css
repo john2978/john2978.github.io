@@ -27,3 +27,10 @@ h {
 p {
     font-family: "Verdana", "Arial", sans-serif;
 }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
