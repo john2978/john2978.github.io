@@ -5,6 +5,13 @@ body {
 background-color: white
 }
 
+@font-face
+{
+    font-family: Headings;
+    scr: url(css/fonts/Arvo-Regular.ttf);
+
+}
+
 img {
     display: block;
     margin-left: auto;
@@ -12,7 +19,7 @@ img {
 }
 
 h1 {
-color: #12344b;
+color: #072e47;
 font-weight: 500%;
 }
 
@@ -21,7 +28,7 @@ font-weight: 500%;
  rgb(180,200,220);
 
 h {
-    font-family: "Georgia", "Times New Roman", serif; 
+    font-family: 'Headings', "Georgia", "Times New Roman", serif; 
 }
 
 p {
