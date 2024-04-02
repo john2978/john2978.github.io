@@ -12,8 +12,8 @@
 <form action="https://www.google.com/search" method="GET" target="_blank">
 
   <p>
-    <label for="type"> Keywords </label> 
-    <input type="text" name="q" id="type" placeholder="(doesn't work)">
+    <label for="searchbox"> Keywords </label> 
+    <input type="text" name="q" id="type" placeholder="(enter deductions)">
  
 </p>
 
@@ -21,7 +21,7 @@
   <fieldset id="check">
     <p>
       <label for="newtab"> Open New Tab </label> 
-      <input type="checkbox" name="newwindo" value="1" id="newtab" checked>
+      <input type="checkbox" name="newwindow" value="1" id="newtab" checked>
     </p>
   
   </fieldset>
@@ -33,7 +33,8 @@
   <p>
     <label for="selectgenre"> Select a Genre: </label>
     <select name="q" id="selectgenre">
-      <option value=" "> All </option>
+      <option value=" ">  </option>
+      <option value=" detective"> All </option>
       <option value=" noir detective"> Noir </option>
       <option value=" classic detective"> Classic </option>
       <option value=" nonfiction detective"> Nonfiction </option>
@@ -57,6 +58,10 @@ Media/Format:
   <p>
     <label for="videoradio"> Video </label> 
     <input type="radio" name="tbm" value="vid" id="videoradio">
+  </p>
+  <p>
+    <label for="shopping"> Shopping </label> 
+    <input type="radio" name="tbm" value="shop" id="shopping">
   </p>
 </fieldset>
 
