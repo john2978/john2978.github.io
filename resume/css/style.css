@@ -1,0 +1,60 @@
+@font-face
+body {
+    background-color: white;
+    }
+
+
+{
+    font-family: Header;
+   src: url(fonts/Arvo-Regular.ttf);
+}
+
+
+@font-face
+{
+    font-family: Body;
+    src: url(fonts/OpenSans.ttf);
+}
+
+
+h1, h2, h3 {
+    color: #140f58;
+    font-weight: 800;
+    font-family: "Header", "Georgia", "Times New Roman", serif; 
+    }
+h1{
+    font-size: 4vw;
+}
+    
+*
+{
+    font-family: "Body";
+    color: #285a79;
+    margin-left: 1vw;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 16px;
+}
+
+
+table
+{
+    border: 6px outset #285a79;
+}
+
+span
+{
+    font-weight: 600;
+}
+navigation
+{
+    padding: 10px;
+}
+ul {
+    list-style-type: square;
+}
