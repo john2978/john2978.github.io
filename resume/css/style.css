@@ -1,4 +1,4 @@
-@font-face
+
 body {
     background-color: white;
     }
@@ -13,7 +13,7 @@ body {
 @font-face
 {
     font-family: Body;
-    src: url(fonts/OpenSans.ttf);
+    src: url();
 }
 
 
@@ -24,6 +24,7 @@ h1, h2, h3 {
     }
 h1{
     font-size: 4vw;
+   
 }
     
 *
