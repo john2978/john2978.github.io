@@ -20,22 +20,31 @@
             {
                 color: var(--bearsgold);
             }
-
-
-
-        </style>
+            #nav {
+                background-color:  var(--bearsgold);
+                padding: 3px;
+            }
+@media screen and (max-width: 500px) {
+img {
+  width: 90vw;
+}
+}
+            #home{
+            width: 34vw;
+            }
+            </style>
         
     </head>
     <body>
             <ol>
-                <li> <a href="#portrait"> Potrait </a> </li>
-                <li> <a href="#whatmakesahero"> What Makes A Hero?</a> </li>
+                <li> <a id="nav" href="#portrait"> Potrait </a> </li>
+                <li> <a id="nav" href="#whatmakesahero"> What Makes A Hero?</a> </li>
             </ol>
 
         <h1> Chuck Norris </h1>
         <section id="portrait">
         <h2>Portrait</h2>
-        <img style="float:left" src="https://th.bing.com/th/id/OIP.nAK1v1ct7npLXWGqfOlrAQAAAA?rs=1&pid=ImgDetMain" alt="Chuck Norris Image">
+        <a href="images/ChuckNorris1.jpg"> <img style="float:left" src="images/thumbnail_ChuckNorris1.jpg" alt="Chuck Norris Image"> </a>
         
         <h2> <em> What is a hero?</em></h2> 
          <p>  A Hero is a champion, a conqueror, a knight, a paladin, a person of the hour, a protector a savior, a victor, a warrior, a white knight, a winner, an eidolon, an example, an icon, an idol, a model, a paragon, a person to look up to, a role model, a shining example <em> (and no I didn't just copy that from Thesaurus.com [well ok maybe like 90% of it, but that's not the point]). </em></p>
@@ -47,12 +56,13 @@
          <section style="clear: both" id="whatmakesahero">    
             <br> <br>    
         <img style="display: none" src="https://www.giantbomb.com/a/uploads/original/46/462814/3221502-8667199912-d2d02.jpg" alt="chuck norris image">
-        <img src="https://www.giantbomb.com/a/uploads/original/46/462814/3221502-8667199912-d2d02.jpg" alt="chuck norris image">
+        <a href="images/ChuckNorris2.jpg"> <img src="images/thumbnail_ChuckNorris2.jpg" alt="chuck norris image"> </a>
         </section>
-        <p><a href="https://parade.com/968666/parade/chuck-norris-jokes/"> <strong> PUNCH HERE </strong> </a> To Learn True Facts About Chuck Norris!!! </p>
+        <p><a id="nav" href="https://parade.com/968666/parade/chuck-norris-jokes/"> <strong> PUNCH HERE </strong> </a> To Learn True Facts About Chuck Norris!!! </p>
     
-        <br><a href="index.html"> <img height="60" src="images/button_home.png" alt="HOME"> </a>
+    
     
     
     </body>
+    <br><a  href="index.html"> <img id="home" src="images/button_home.png" alt="HOME"> </a>
 </html>
